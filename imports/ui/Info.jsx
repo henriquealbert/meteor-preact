@@ -3,7 +3,6 @@ import { LinksCollection } from '../api/links'
 
 export const Info = () => {
   const links = useTracker(() => LinksCollection.find().fetch())
-  console.log({ links })
   return (
     <div>
       <h2>Learn Meteor!</h2>
