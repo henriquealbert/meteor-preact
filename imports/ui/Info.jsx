@@ -1,4 +1,4 @@
-import { useTracker } from 'meteor/react-meteor-data'
+import { useTracker } from '../../packages/react-meteor-data'
 import { LinksCollection } from '../api/links'
 
 export const Info = () => {
@@ -7,7 +7,7 @@ export const Info = () => {
   return (
     <div>
       <h2>Learn Meteor!</h2>
-      {/* <ul>
+      <ul>
         {links.map((link) => (
           <li key={link._id}>
             <a href={link.url} target="_blank">
@@ -15,7 +15,7 @@ export const Info = () => {
             </a>
           </li>
         ))}
-      </ul> */}
+      </ul>
     </div>
   )
 }
