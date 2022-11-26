@@ -21,8 +21,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.20.2",
-    "@babel/plugin-transform-react-jsx": "^7.19.0",
     "babel-plugin-jsx-pragmatic": "^1.0.2",
-    "babel-preset-preact": "^2.0.0"
+    "babel-plugin-transform-react-jsx": "^6.24.1"
   }
 }
