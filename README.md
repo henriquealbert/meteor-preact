@@ -5,4 +5,4 @@ Auto import Preact using Babel.
 TODO:
 
 - [ ] Write better documentation
-- [ ] Add Tracker to fetch data from Meteor
+- [ ] Add Tracker to fetch data from Meteor -> Not working yet

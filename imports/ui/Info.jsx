@@ -1,18 +1,9 @@
-// import { useState, useEffect } from 'preact/hooks'
-// import { Tracker } from 'meteor/tracker'
-// import { LinksCollection } from '../api/links'
+import { useTracker } from 'meteor/react-meteor-data'
+import { LinksCollection } from '../api/links'
 
 export const Info = () => {
-  // TODO:
-  // const [links, setLinks] = useState([])
-
-  // useEffect(() => {
-  //   Tracker.autorun(() => {
-  //     const _links = LinksCollection.find().fetch()
-  //     setLinks(_links)
-  //   })
-  // }, [])
-
+  const links = useTracker(() => LinksCollection.find().fetch())
+  console.log({ links })
   return (
     <div>
       <h2>Learn Meteor!</h2>
