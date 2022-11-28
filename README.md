@@ -1,4 +1,4 @@
-# MeteorJS + Preact
+# MeteorJS + Preact + Vite
 
 ## Features:
 
