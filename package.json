@@ -2,7 +2,7 @@
   "name": "preact-app",
   "private": true,
   "scripts": {
-    "start": "meteor run",
+    "dev": "meteor --exclude-archs \"web.browser.legacy, web.cordova\"",
     "test": "meteor test --once --driver-package meteortesting:mocha",
     "test-app": "TEST_WATCH=1 meteor test --full-app --driver-package meteortesting:mocha",
     "visualize": "meteor --production --extra-packages bundle-visualizer"
@@ -20,9 +20,7 @@
     "testModule": "tests/main.js"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.2",
-    "@babel/plugin-transform-react-jsx": "^7.19.0",
-    "babel-plugin-jsx-pragmatic": "^1.0.2",
-    "babel-preset-preact": "^2.0.0"
+    "@preact/preset-vite": "^2.4.0",
+    "vite": "^3.2.4"
   }
 }
